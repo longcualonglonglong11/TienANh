@@ -1,0 +1,149 @@
+<resources>
+    <string name="tfe_ic_app_name" translation_description="Image Classification demo app [CHAR_LIMIT=40]">TFL Classify</string>
+    <string name="tfe_ic_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="tfe_ic_gpu_quant_error" translation_description="Error regarding GPU support for Quant models[CHAR_LIMIT=60]">GPU does not yet supported quantized models.</string>
+    <string name="tfe_ic_model" translatable="false">Model:</string>
+    <string name="zonaTitle" translatable="false">Zona
+</string>
+    <string name="zonaDes" translatable="false">
+        \t\tBệnh zona (zôna hay zôna thần kinh) là dạng tái hoạt của virus varicella zoster, tức là bệnh nhân trước đó đã từng mắc bệnh thủy đậu (trái rạ). Thường thì bệnh nhân nhiễm thủy đậu khi còn nhỏ rồi lành bệnh nhưng virut không bị diệt mà ẩn vào trong tế bào thần kinh, Hạch thần kinh dưới dạng không hoạt động. Sau một thời gian dài, có khi hằng mấy chục năm, virut tái hoạt động thành bệnh zona. Virut sẽ lan theo đường đi của dây thần kinh rồi bộc phát ở trên da tương ứng với khu vực của dây thần kinh. Động lực khiến virut tái hoạt sau nhiều năm tiềm ẩn vẫn chưa được xác định.
+</string>
+    <string name="zonaSym" translatable="false">
+        \t\tLâm sàng. Trước khi tổn thương mọc 2-3 ngày thường có cảm giác báo hiệu như: rát dấm dứt, đau vùng sắp mọc tổn thư­ơng kèm theo triệu chứng toàn thân ít hoặc nhiều như mệt mỏi, đau đầu... Hạch ngoại vi lân cận có thể sưng và đau.\n
+        ● Vị trí: thường khu trú tập trung ở những vị trí đặc biệt và chỉ có một bên của cơ thể dọc theo các đường dây thần kinh, như­ng cá biệt có thể bị cả hai bên hay lan toả.\n
+        ● Tổn thương cơ bản: thường bắt đầu là các mảng đỏ, nề nhẹ, gờ cao hơn mặt da, hình tròn, bầu dục lần l­ượt nổi dọc dây thần kinh, rải rác hoặc cụm lại thành dải, thành vệt, sau 1-2 giờ trên mảng đỏ xuất hiện những mụn n­ước chứa dịch trong, căng khó vỡ, các mụn nước tập trung thành cụm (như­ chùm nho), về sau đục, vỡ, xẹp để lại sẹo (nếu nhiễm khuẩn). Tr­ước hoặc cùng với mọc tổn thương ở da thư­ờng nổi hạch sưng và đau ở vùng tư­ơng ứng và là dấu hiệu quan trọng để chẩn đoán.
+
+
+    </string>
+    <string name="zonaReason" translatable="false">● Lo lắng quá mức, căng thẳng (Stress)\n
+● Mệt mỏi\n
+● Hệ miễn dịch suy yếu (có thể là do tuổi tác, bệnh tật, rượu bia quá mức, tác dụng phụ của thuốc men làm giảm khả năng đề kháng của cơ thể để có thể giữ được virus thủy đậu trong trạng thái bất hoạt).\n
+● Ung thư.\n
+● Các biện pháp điều trị bằng tia xạ.\n
+● Làm tổn thương vùng da bị nổi ban.\n
+● Động lực tái phát của zona có thể phát động khi bệnh nhân mệt mỏi công việc và áp lực công việc mà ít được nghỉ ngơi.
+
+    </string>
+
+
+    <string name="chamTitle" translatable="false">
+</string>
+    <string name="chamDes" translatable="false">
+        \t\t
+    Eczema(Chàm) là một trạng thái viêm lớp nông của da cấp tính hay mạn tính, tiến triển từng đợt hay tái phát, lâm sàng biểu hiện bằng đám mảng đỏ da, mụn nước và ngứa. Nguyên nhân gây bệnh rất phức tạp, do: nội giới, ngoại giới như­ng bao giờ cũng có vai trò thể địa dị ứng. Về mô học có hiện tư­ợng xốp bào (Spongiosis). Eczema là bệnh ngoài da phổ biến, là bệnh da ngứa điển hình, mạn tính hay tái phát, điều trị còn khó khăn
+    </string>
+    <string name="chamSym" translatable="false">
+        ● Phát ban ở nếp gấp khuỷu tay hoặc đầu gối.\n
+● Da ở những nơi phát ban có thể trở nên sáng hơn, tối hơn hoặc dày hơn.\n
+● Trẻ em thường bị phát ban ở da đầu và má
+● Da có thể bị nhiễm trùng nếu bạn gãi.
+    </string>
+    <string name="chamReason" translatable="false">\t\tNguyên nhân gây bệnh khá phức tạp, tuy nhiên thường gặp nhất là do các yếu tố:
+
+● Yếu tố di truyền: Trong gia đình có người mắc bệnh chàm sẽ làm gia tăng tỷ lệ nhiễm bệnh ở các thế hệ sau.
+
+● Bệnh lý: Người bệnh xơ gan, viêm thận, viêm tai, suyễn,… là đối tượng dễ mắc bệnh hơn người bình thường.
+
+● Nguyên nhân gây ra bệnh chàm do yếu tố dị nguyên: Một số yếu tố từ vật lý, sinh học, hóa học gồm môi trường ô nhiễm, thay đổi thời tiết đột ngột, dị ứng với quần áo, phấn sáp, dép cao su, dị ứng thuốc, thực phẩm kích ứng,…
+
+●  Sức đề kháng yếu: Nhiều người bị bệnh chàm - eczema chỉ vì sức đề kháng suy giảm khiến cơ thể yếu dần, không thể chống lại tác nhân kích ứng từ bên ngoài.
+    </string>
+
+
+    <string name="langbenTitle" translatable="false">Lang ben
+</string>
+    <string name="langbenDes" translatable="false">
+        \t\t
+\t\t\Lang ben là một bệnh ngoài da do vi nấm malassezia gây ra. Đây là bệnh thường gặp tại Việt Nam, người bệnh thường cảm thấy ngứa, sang thương da (da biến màu trắng hay đen), vẩy, Việc điều trị bệnh tương đối dễ dàng nhưng vấn đề khó khăn nhất là tình trạng tái phát.
+\n\t\tBệnh thường tiến triển âm thầm và lâu dài từ nhiều tháng đến nhiều năm, lứa tuổi thanh thiếu niên 15-25 dễ mắc bệnh nhất, tập trung ở lưng, ngực, cổ và mặt trong cánh tay.Khi bị bệnh, người bệnh đa phần thường cảm thấy ngứa nhẹ (gần như 100%) nhất là khi đổ mồ hôi; sang thương da, cảm thấy bị rát da, các trường hợp da bị giảm sắc tố (màu trắng) chiếm đa số, ngoài ra da cũng có thể bị sậm hơn. Thời gian bị bệnh càng lâu thì càng khó chữa. Tỉ lệ mắc bệnh lại sau 1 năm thường cũng khá cao (20%).[cần dẫn nguồn]
+    </string>
+    <string name="langbenSym" translatable="false">
+        Các triệu chứng phổ biến của lang ben bao gồm:
+
+\n●  Đốm lạ xuất hiện từ từ trên làn da và kích thước dần dần tăng lên;
+\n●  Đốm có màu sáng hơn hoặc tối hơn so với khu vực xung quanh. Đốm có màu trắng, hồng, đỏ, nâu;
+\n●  Các đốm có thể xuất hiện bất cứ nơi nào trên cơ thể, nhưng thường xuyên xuất hiện trên cổ, ngực, lưng và cánh tay;
+\n●  Đốm có thể khô, có vảy và gây cảm giác ngứa;
+\n●  Khác với da khỏe mạnh, nấm men làm da không tiếp xúc được với ánh nắng;
+\n●  Khi nấm men phát triển, các đốm có thể kết hợp và tạo thành những mảng sáng hơn (hoặc tối hơn) da;
+\n●  Các đốm có thể biến mất khi nhiệt độ giảm xuống. Tuy nhiên, nó sẽ trở lại vào mùa xuân hoặc mùa hè khi không khí trở nên ấm áp và ẩm ướt.
+
+    </string>
+    <string name="langbenReason" translatable="false">\t\tLang ben xảy ra khi vi nấm pityrosporum ovale (một loại nấm men) phát triển trên da. Bệnh có thể phát triển nhanh chóng trên bề mặt da. Mặc dù, các bác sĩ vẫn không tìm ra lý do cho việc phát triển quá mức này, nhưng họ cho rằng một số yếu tố có thể làm nấm men tăng trưởng trên da. Những yếu tố này bao gồm:
+
+\n●  Thời tiết nóng và ẩm ướt;
+\n●  Nhiều mồ hôi;
+\n●  Da dầu;
+\n●  Hệ thống miễn dịch bị suy giảm;
+\n●  Thay đổi nội tiết.   </string>
+nến
+
+    <string name="vaynenTitle" translatable="false">Vảy
+        nến
+</string>
+    <string name="vaynenDes" translatable="false">
+        \t\t
+\t\tBệnh vẩy nến chiếm 5% dân số Châu Âu, 2% dânnến số Châu Á và Châu Phi, xấp xỉ 10% tổng số các bệnh nhân đến khám ở các phòng khám Da liễu. Bệnh lành tính, thường không ảnh hưởng đến sức khỏe nhưng ảnh hưởng đến thẩm mỹ, tâm lý và những hệ lụy của nó. Nam gặp nhiều hơn nữ, người lớn nhiều hơn trẻ em. Bệnh phát thành từng đợt, có khi tăng giảm theo mùa.
+    </string>
+    <string name="vaynenSym" translatable="false">
+        \t\tCác dấu hiệu và triệu chứng bệnh vảy nến
+\n●  Xuất hiện nhiều mảng da đỏ, có vảy dày và óng ánh bạc.
+\n●  Có nhiều đốm vảy nhỏ (thường thấy ở trẻ em)
+\n●  Da khô, nứt nẻ, có khi chảy máu hoặc ngứa ngáy.
+\n●  Cảm giác ngứa, nóng rát hoặc đau nhức ở vùng da bị ảnh hưởng.
+\n●  Móng tay dày, có vết lõm hoặc đường rãnh.
+\n●  Các khớp bị sưng và cứng.
+
+
+
+    </string>
+    <string name="vaynenReason" translatable="false">\t\tNguyên nhân gây ra căn bệnh vẩy nến là không rõ ràng, mặc dù có nguyên nhân đã được chấp nhận là do một thành phần di truyền cơ bản nào đó, khi được kích hoạt sẽ làm cho hệ thống miễn dịch sản xuất một số lượng quá nhiều tế bào da. Như vậy hiện tượng này được gọi là một rối loạn da tự miễn dịch. Hiện nay chưa có cách chữa khỏi hoàn toàn căn bệnh này mà không tái phát bệnh.
+
+\n●  Di truyền: Khoảng 30% bệnh nhân có yếu tố gia đình (cha, mẹ, anh chị em ruột hoặc họ hàng trực hệ); 70% các cặp song sinh cùng mắc. Các nghiên cứu chỉ ra các kháng nguyên HLAW6, B13, B17, DR7 liên quan đến vẩy nến da và khớp.
+\n●  Nhiễm khuẩn: vẩy nến ở trẻ em, vẩy nến thể giọt người ta phân ra được liên cầu khuẩn ở tổn thương và điều trị kháng sinh thì bệnh thuyên giảm.
+\n●  Stress: Làm bệnh tái phát hoặc đột ngột nặng lên.
+\n●  Thuốc: Bệnh vẩy nến xuất hiện sau khi sử dụng một số thuốc: chẹn beta kéo dài, lithium, đặc biệt sau khi sử dụng corticoid.
+\n●  Hiện thượng Kobner: thương tổn mọc lên sau các kích thích cơ học (gãi, chà xát) hoặc các kích thích lý hóa (bệnh nặng nhẹ theo mùa).   </string>
+
+
+
+
+
+
+    <string name="haclaoTitle" translatable="false">Hắc lào
+</string>
+    <string name="haclaoDes" translatable="false">
+        \t\t
+Bệnh nấm da hay hắc lào, bệnh lác đồng tiền, là bệnh do vi nấm thuộc nhóm dermatophytes gây nên, hay gặp nhất là ba loại microsporum, trychophyton và epidermophyton.
+    </string>
+    <string name="haclaoSym" translatable="false">
+        \t\tCác biểu hiện dễ dàng nhận biết của bệnh hắc lào đó là cảm giác ngứa ngáy đặc biệt là khi ra mồ hôi ở vùng da bị nấm, nhiều trường hợp kèm theo bong tróc, tróc vảy ở bề mặt da. Vùng da bị hắc lào tạo thành hình tròn như đồng tiền xu, một hoặc có thể nhiều vùng như vậy.
+\t\t\nỞ giai đoạn mới mắc bệnh, các tổn thương ở da xuất hiện thành dạng những đám nhỏ bầu dục hoặc tròn có ranh giới. Tiếp theo chúng liên kết và hình thành một mảng lớn đa cung nổi ở trên bề mặt của da. Màu sắc ở vùng da hắc lào: nâu hoặc đỏ, cạnh sắc cứng, da bong tróc, ngứa ngáy. Nhiều trường hợp còn kèm theo các mụn mủ vàng hay mụn nước nhỏ rộp phồng lên vì bội nhiễm do gãi, cào làm xước da khiến vi khuẩn dễ dàng xâm nhập.
+
+
+\t\t\nHắc lào có thể gặp ở bất cứ vị trí nào nhưng hay gặp nhất là ở chân, thân mình, nơi có nếp gấp kẽ lớn.
+
+
+
+    </string>
+    <string name="haclaoReason" translatable="false">\t\tHắc lào do những loại vi nấm thuộc nhóm dermatophytes gây ra như: epidermophyton, microsporum, trichophyton, malassezia furfur. Các loại nấm này có kích thước rất nhỏ, chỉ có thể quan sát được bằng kính hiển vi. Môi trường ướt, nóng ẩm là điều kiện thuận lợi để chúng phát triển. Theo thống kê thì những người da dầu, khi cơ thể có sự biến đổi về lượng hormone có thể khiến hệ miễn dịch suy yếu sẽ dễ bị hắc lào hơn thông thường.
+    \n\t\tSau đây là một số nguyên nhân gây ra hắc lào thường gặp trong đời sống:
+    \n\t\tVệ sinh cơ thể không sạch sẽ: nhiều ngày không tắm rửa, mặc quần áo bẩn, nhiều ngày không thay hay mặc quần áo khi chưa khô, lúc còn ẩm là những thói quen xấu. Chúng tạo điều kiện thuận lợi để cho các vi nấm xâm nhập cơ thể và gây ra hắc lào.
+Bị lây nhiễm bởi người bị hắc lào: khi sử dụng chung đồ như tư trang cá nhân, quần áo, khăn tắm hoặc tiếp xúc da trực tiếp với người bị hắc lào sẽ có nguy cơ lây nhiễm rất cao.
+\n\t\tVi nấm xâm nhập từ vật nuôi: nếu như vật nuôi trong nhà như chó mèo không được sạch sẽ thì đây rất có thể là nơi ẩn trú của các loại vi nấm. Khi chúng ta tiếp xúc với vật nuôi thì rất có khả năng bị vi nấm xâm nhập gây ra hắc lào.
+    </string>
+
+    <string-array name="tfe_ic_models" translatable="false">
+        <item>Quantized_EfficientNet</item>
+        <item>Float_EfficientNet</item>
+        <item>Quantized_MobileNet</item>
+        <item>Float_MobileNet</item>
+    </string-array>
+
+    <string name="tfe_ic_device" translatable="false">Device:</string>
+    <string-array name="tfe_ic_devices" translatable="false">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+</resources>

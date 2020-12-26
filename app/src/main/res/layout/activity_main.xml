@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+<!--    <Button-->
+<!--        android:onClick="forwardTextActivity"-->
+<!--        android:id="@+id/viewDocBtn"-->
+<!--        android:text="Text"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="300dp">-->
+
+<!--    </Button>-->
+    <TextView
+        android:layout_weight="2"
+        android:text="SKIN LEARNING"
+        android:textSize="50dp"
+        android:textFontWeight="1000"
+        android:textColor="#D400BF"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_weight="7"
+
+        android:fontFamily="monospace"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="\tSkin learning là một ứng dụng giúp người dùng học thêm về các chứng bệnh ngoài da một cách hiểu quả chỉ thông qua việc chụp ảnh !!!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_weight="1"
+        app:cardBackgroundColor="#D400BF"
+        android:layout_gravity="center"
+        app:cardCornerRadius="15dp"
+        android:layout_marginBottom="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:padding="30dp"
+            android:textSize="30dp"
+            android:textColor="#ffff"
+            android:background="@android:color/transparent"
+            android:onClick="forwardImgActivity"
+            android:id="@+id/takeQuizBtn"
+            android:text="Bắt đầu nào !"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </Button>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

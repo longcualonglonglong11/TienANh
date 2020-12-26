@@ -1,0 +1,6 @@
+0 Hac lao
+1 Vay nen
+2 Cham
+3 Zona
+4 Lang beng
+5 Binh thuong

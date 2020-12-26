@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2019 The TensorFlow Authors. All Rights Reserved.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            tools:context="org.tensorflow.lite.examples.classification.CameraActivity" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/doc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="1000dp"
+                    app:cardCornerRadius="30dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardElevation="0dp"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:textColor="#FF0202"
+                            android:textSize="30dp"
+                            android:text="X"
+                            android:background="@android:color/transparent"
+                            android:id="@+id/close_doc"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="closeDoc"></Button>
+
+                    </androidx.cardview.widget.CardView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/titleText"
+
+                            android:fontFamily="sans-serif-light"
+                            android:textStyle="italic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Tên bệnh"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:textFontWeight="1000"
+                            android:textColor="#2196F3"
+                            >
+                        </TextView>
+                        <ImageView
+                            android:id="@+id/imgText"
+                            android:layout_gravity="center"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp">
+
+                        </ImageView>
+
+                        <TextView
+                            android:fontFamily="sans-serif-light"
+                            android:textStyle="italic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Miêu tả"
+                            android:textSize="30dp"
+                            android:textAlignment="center"
+                            android:textFontWeight="1000"
+                            android:textColor="#000000"
+                            >
+                        </TextView>
+                        <TextView
+                            android:id="@+id/descriptionText"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="mt"
+                            android:textSize="15dp"
+                            android:textFontWeight="400"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:fontFamily="sans-serif-light"
+                            android:textStyle="italic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Nguyên nhân"
+                            android:textSize="30dp"
+                            android:textAlignment="center"
+                            android:textFontWeight="1000"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/reasonText"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="mt"
+                            android:textSize="15dp"
+                            android:textFontWeight="400"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:fontFamily="sans-serif-light"
+                            android:textStyle="italic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Triệu chứng"
+                            android:textSize="30dp"
+                            android:textAlignment="center"
+                            android:textFontWeight="1000"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_marginBottom="20dp"
+                            android:id="@+id/symptomText"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="mt"
+                            android:textSize="15dp"
+                            android:textFontWeight="400"
+                            android:textColor="#000000">
+                        </TextView>
+<!--                        <TextView-->
+<!--                            android:fontFamily="sans-serif-light"-->
+<!--                            android:textStyle="italic"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:text="Mức độ nguy hiểm"-->
+<!--                            android:textSize="30dp"-->
+<!--                            android:textAlignment="center"-->
+<!--                            android:textFontWeight="1000"-->
+<!--                            android:textColor="#000000">-->
+<!--                        </TextView>-->
+<!--                        <TextView-->
+<!--                            android:id="@+id/dangeLvText"-->
+<!--                            android:fontFamily="sans-serif-light"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:text="mt"-->
+<!--                            android:textSize="15dp"-->
+<!--                            android:textFontWeight="400"-->
+<!--                            android:textColor="#000000">-->
+<!--                        </TextView>-->
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textInto"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textColor="#291F1F"
+        android:text="Giữ màn hình để chụp"
+        android:textFontWeight="1000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </TextView>
+    <include
+
+        android:id="@+id/bottom_sheet_layout"
+        layout="@layout/tfe_ic_layout_bottom_sheet" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
