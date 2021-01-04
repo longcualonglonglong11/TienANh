@@ -47,6 +47,8 @@ import android.view.View;
 import android.view.ViewTreeObserver;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.FrameLayout;
@@ -538,7 +540,9 @@ public abstract class CameraActivity extends AppCompatActivity
                 return 0;
         }
     }
+
     Recognition recognition;
+
     @UiThread
     protected void showResultsInBottomSheet(List<Recognition> results) {
         if (results != null && results.size() >= 3) {
@@ -663,14 +667,13 @@ public abstract class CameraActivity extends AppCompatActivity
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
         if (parent == modelSpinner) {
-            Log.d("BBBBBBB" ,String.valueOf(pos));
             setModel(Model.valueOf(parent.getItemAtPosition(pos).toString().toUpperCase()));
         } else if (parent == deviceSpinner) {
             setDevice(Device.valueOf(parent.getItemAtPosition(pos).toString()));
         }
     }
 
-    LinearLayout b;
+    LinearLayout resultBg;
     Button btnClose;
     private final int vaynen = R.drawable.vaynen;
     private final int haclao = R.drawable.haclao;
@@ -679,9 +682,25 @@ public abstract class CameraActivity extends AppCompatActivity
     private final int zona = R.drawable.zona;
 
     public void openDoc(String name) {
-        b.setVisibility(View.VISIBLE);
+        resultBg.setVisibility(View.VISIBLE);
+
+        TextView desStatic = findViewById(R.id.desStatic);
+        desStatic.setVisibility(View.VISIBLE);
+        TextView reaStatic = findViewById(R.id.reaStatic);
+        reaStatic.setVisibility(View.VISIBLE);
+        resultBg.startAnimation(animFadein);
+
+        TextView symStatic = findViewById(R.id.symStatic);
+        symStatic.setVisibility(View.VISIBLE);
         textIntro.setVisibility(View.GONE);
-        if(name.contains("0")){
+
+        TextView descriptionText1 = findViewById(R.id.descriptionText);
+        TextView reasonText1 = findViewById(R.id.reasonText);
+
+        descriptionText1.setVisibility(View.VISIBLE);
+        reasonText1.setVisibility(View.VISIBLE);
+
+        if (name.contains("4")) {
             TextView symptomText = findViewById(R.id.symptomText);
             symptomText.setText(getString(R.string.zonaSym));
 
@@ -698,7 +717,7 @@ public abstract class CameraActivity extends AppCompatActivity
 
             imageText.setImageResource(R.drawable.zona);
         }
-        if(name.contains("1")){
+        if (name.contains("1")) {
             TextView symptomText = findViewById(R.id.symptomText);
             symptomText.setText(getString(R.string.haclaoSym));
 
@@ -715,7 +734,7 @@ public abstract class CameraActivity extends AppCompatActivity
 
             imageText.setImageResource(R.drawable.haclao);
         }
-        if(name.contains("Lang ben")){
+        if (name.contains("2")) {
             TextView symptomText = findViewById(R.id.symptomText);
             symptomText.setText(getString(R.string.langbenSym));
 
@@ -732,7 +751,7 @@ public abstract class CameraActivity extends AppCompatActivity
 
             imageText.setImageResource(R.drawable.langben);
         }
-        if(name.contains("Vay nen")){
+        if (name.contains("3")) {
             TextView symptomText = findViewById(R.id.symptomText);
             symptomText.setText(getString(R.string.vaynenSym));
 
@@ -749,9 +768,59 @@ public abstract class CameraActivity extends AppCompatActivity
 
             imageText.setImageResource(R.drawable.vaynen);
         }
-        if(name.contains("Binh thuong")){
+        if (name.contains("0")) {
+            TextView symptomText = findViewById(R.id.symptomText);
+            symptomText.setText(getString(R.string.chamSym));
 
+            TextView titleText = findViewById(R.id.titleText);
+            titleText.setText(getString(R.string.chamTitle));
+
+            TextView descriptionText = findViewById(R.id.descriptionText);
+            descriptionText.setText(getString(R.string.chamDes));
+
+            TextView reasonText = findViewById(R.id.reasonText);
+            reasonText.setText(getString(R.string.chamReason));
+
+            ImageView imageText = findViewById(R.id.imgText);
+            imageText.setImageResource(R.drawable.cham);
         }
+        if (name.contains("5")) {
+            TextView symptomText = findViewById(R.id.symptomText);
+            symptomText.setVisibility(View.GONE);
+            symStatic.setVisibility(View.GONE);
+
+            TextView titleText = findViewById(R.id.titleText);
+            titleText.setText(getString(R.string.munTitle));
+
+            TextView descriptionText = findViewById(R.id.descriptionText);
+            descriptionText.setText(getString(R.string.munDes));
+
+            TextView reasonText = findViewById(R.id.reasonText);
+            reasonText.setText(getString(R.string.munReason));
+
+            ImageView imageText = findViewById(R.id.imgText);
+            imageText.setImageResource(R.drawable.mun);
+        }
+        if (name.contains("6")) {
+            TextView symptomText = findViewById(R.id.symptomText);
+            symptomText.setVisibility(View.GONE);
+            symStatic.setVisibility(View.GONE);
+
+            TextView titleText = findViewById(R.id.titleText);
+            titleText.setText("Da khỏe");
+
+            TextView descriptionText = findViewById(R.id.descriptionText);
+            descriptionText.setText(getString(R.string.munDes));
+            descriptionText.setVisibility(View.GONE);
+            desStatic.setVisibility(View.GONE);
+            TextView reasonText = findViewById(R.id.reasonText);
+            reasonText.setText(getString(R.string.munReason));
+            reasonText.setVisibility(View.GONE);
+            reaStatic.setVisibility(View.GONE);
+            ImageView imageText = findViewById(R.id.imgText);
+            imageText.setImageResource(R.drawable.normal);
+        }
+
 
 
     }
@@ -770,19 +839,43 @@ public abstract class CameraActivity extends AppCompatActivity
                 return true;
             }
         });
-        b = findViewById(R.id.doc);
-        b.setVisibility(View.GONE);
+        resultBg = findViewById(R.id.doc);
+        resultBg.setVisibility(View.GONE);
         textIntro = findViewById(R.id.textInto);
         btnClose = findViewById(R.id.close_doc);
 //        Log.d("BBBBB", modelSpinner.getItemAtPosition(2).toString());
 
         setModel(Model.valueOf("Quantized_MobileNet".toUpperCase()));
-    }
-    TextView textIntro;
-    public void closeDoc(View view) {
+        animFadein = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_in);
+        // set animation listener
+        animFadein.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
 
-        b.setVisibility(View.GONE);
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+            }
+        });
+
+    }
+
+    Animation animFadein;
+    TextView textIntro;
+
+    public void closeDoc(View view) {
         textIntro.setVisibility(View.VISIBLE);
+        resultBg.startAnimation(animFadein);
+
+        resultBg.setVisibility(View.GONE);
+        resultBg.clearAnimation();
+
     }
 
     @Override

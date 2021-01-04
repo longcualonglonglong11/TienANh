@@ -11,7 +11,7 @@
     <string name="zonaSym" translatable="false">
         \t\tLâm sàng. Trước khi tổn thương mọc 2-3 ngày thường có cảm giác báo hiệu như: rát dấm dứt, đau vùng sắp mọc tổn thư­ơng kèm theo triệu chứng toàn thân ít hoặc nhiều như mệt mỏi, đau đầu... Hạch ngoại vi lân cận có thể sưng và đau.\n
         ● Vị trí: thường khu trú tập trung ở những vị trí đặc biệt và chỉ có một bên của cơ thể dọc theo các đường dây thần kinh, như­ng cá biệt có thể bị cả hai bên hay lan toả.\n
-        ● Tổn thương cơ bản: thường bắt đầu là các mảng đỏ, nề nhẹ, gờ cao hơn mặt da, hình tròn, bầu dục lần l­ượt nổi dọc dây thần kinh, rải rác hoặc cụm lại thành dải, thành vệt, sau 1-2 giờ trên mảng đỏ xuất hiện những mụn n­ước chứa dịch trong, căng khó vỡ, các mụn nước tập trung thành cụm (như­ chùm nho), về sau đục, vỡ, xẹp để lại sẹo (nếu nhiễm khuẩn). Tr­ước hoặc cùng với mọc tổn thương ở da thư­ờng nổi hạch sưng và đau ở vùng tư­ơng ứng và là dấu hiệu quan trọng để chẩn đoán.
+        ● Tổn thương cơ bản: thường bắt đầu là các mảng đỏ, nề nhẹ, gờ cao hơn mặt da, hình tròn, bầu dục lần lượt nổi dọc dây thần kinh, rải rác hoặc cụm lại thành dải, thành vệt, sau 1-2 giờ trên mảng đỏ xuất hiện những mụn n­ước chứa dịch trong, căng khó vỡ, các mụn nước tập trung thành cụm (như­ chùm nho), về sau đục, vỡ, xẹp để lại sẹo (nếu nhiễm khuẩn). Tr­ước hoặc cùng với mọc tổn thương ở da thư­ờng nổi hạch sưng và đau ở vùng tư­ơng ứng và là dấu hiệu quan trọng để chẩn đoán.
 
 
     </string>
@@ -26,7 +26,7 @@
     </string>
 
 
-    <string name="chamTitle" translatable="false">
+    <string name="chamTitle" translatable="false">Chàm
 </string>
     <string name="chamDes" translatable="false">
         \t\t
@@ -35,18 +35,18 @@
     <string name="chamSym" translatable="false">
         ● Phát ban ở nếp gấp khuỷu tay hoặc đầu gối.\n
 ● Da ở những nơi phát ban có thể trở nên sáng hơn, tối hơn hoặc dày hơn.\n
-● Trẻ em thường bị phát ban ở da đầu và má
+● Trẻ em thường bị phát ban ở da đầu và má\n
 ● Da có thể bị nhiễm trùng nếu bạn gãi.
     </string>
     <string name="chamReason" translatable="false">\t\tNguyên nhân gây bệnh khá phức tạp, tuy nhiên thường gặp nhất là do các yếu tố:
 
-● Yếu tố di truyền: Trong gia đình có người mắc bệnh chàm sẽ làm gia tăng tỷ lệ nhiễm bệnh ở các thế hệ sau.
+\n● Yếu tố di truyền: Trong gia đình có người mắc bệnh chàm sẽ làm gia tăng tỷ lệ nhiễm bệnh ở các thế hệ sau.
 
-● Bệnh lý: Người bệnh xơ gan, viêm thận, viêm tai, suyễn,… là đối tượng dễ mắc bệnh hơn người bình thường.
+\n● Bệnh lý: Người bệnh xơ gan, viêm thận, viêm tai, suyễn,… là đối tượng dễ mắc bệnh hơn người bình thường.
 
-● Nguyên nhân gây ra bệnh chàm do yếu tố dị nguyên: Một số yếu tố từ vật lý, sinh học, hóa học gồm môi trường ô nhiễm, thay đổi thời tiết đột ngột, dị ứng với quần áo, phấn sáp, dép cao su, dị ứng thuốc, thực phẩm kích ứng,…
+\n● Nguyên nhân gây ra bệnh chàm do yếu tố dị nguyên: Một số yếu tố từ vật lý, sinh học, hóa học gồm môi trường ô nhiễm, thay đổi thời tiết đột ngột, dị ứng với quần áo, phấn sáp, dép cao su, dị ứng thuốc, thực phẩm kích ứng,…
 
-●  Sức đề kháng yếu: Nhiều người bị bệnh chàm - eczema chỉ vì sức đề kháng suy giảm khiến cơ thể yếu dần, không thể chống lại tác nhân kích ứng từ bên ngoài.
+\n●  Sức đề kháng yếu: Nhiều người bị bệnh chàm - eczema chỉ vì sức đề kháng suy giảm khiến cơ thể yếu dần, không thể chống lại tác nhân kích ứng từ bên ngoài.
     </string>
 
 
@@ -55,7 +55,7 @@
     <string name="langbenDes" translatable="false">
         \t\t
 \t\t\Lang ben là một bệnh ngoài da do vi nấm malassezia gây ra. Đây là bệnh thường gặp tại Việt Nam, người bệnh thường cảm thấy ngứa, sang thương da (da biến màu trắng hay đen), vẩy, Việc điều trị bệnh tương đối dễ dàng nhưng vấn đề khó khăn nhất là tình trạng tái phát.
-\n\t\tBệnh thường tiến triển âm thầm và lâu dài từ nhiều tháng đến nhiều năm, lứa tuổi thanh thiếu niên 15-25 dễ mắc bệnh nhất, tập trung ở lưng, ngực, cổ và mặt trong cánh tay.Khi bị bệnh, người bệnh đa phần thường cảm thấy ngứa nhẹ (gần như 100%) nhất là khi đổ mồ hôi; sang thương da, cảm thấy bị rát da, các trường hợp da bị giảm sắc tố (màu trắng) chiếm đa số, ngoài ra da cũng có thể bị sậm hơn. Thời gian bị bệnh càng lâu thì càng khó chữa. Tỉ lệ mắc bệnh lại sau 1 năm thường cũng khá cao (20%).[cần dẫn nguồn]
+\n\t\tBệnh thường tiến triển âm thầm và lâu dài từ nhiều tháng đến nhiều năm, lứa tuổi thanh thiếu niên 15-25 dễ mắc bệnh nhất, tập trung ở lưng, ngực, cổ và mặt trong cánh tay.Khi bị bệnh, người bệnh đa phần thường cảm thấy ngứa nhẹ (gần như 100%) nhất là khi đổ mồ hôi; sang thương da, cảm thấy bị rát da, các trường hợp da bị giảm sắc tố (màu trắng) chiếm đa số, ngoài ra da cũng có thể bị sậm hơn. Thời gian bị bệnh càng lâu thì càng khó chữa. Tỉ lệ mắc bệnh lại sau 1 năm thường cũng khá cao (20%).
     </string>
     <string name="langbenSym" translatable="false">
         Các triệu chứng phổ biến của lang ben bao gồm:
@@ -83,7 +83,7 @@ nến
 </string>
     <string name="vaynenDes" translatable="false">
         \t\t
-\t\tBệnh vẩy nến chiếm 5% dân số Châu Âu, 2% dânnến số Châu Á và Châu Phi, xấp xỉ 10% tổng số các bệnh nhân đến khám ở các phòng khám Da liễu. Bệnh lành tính, thường không ảnh hưởng đến sức khỏe nhưng ảnh hưởng đến thẩm mỹ, tâm lý và những hệ lụy của nó. Nam gặp nhiều hơn nữ, người lớn nhiều hơn trẻ em. Bệnh phát thành từng đợt, có khi tăng giảm theo mùa.
+\t\tBệnh vẩy nến chiếm 5% dân số Châu Âu, 2% dân số Châu Á và Châu Phi, xấp xỉ 10% tổng số các bệnh nhân đến khám ở các phòng khám Da liễu. Bệnh lành tính, thường không ảnh hưởng đến sức khỏe nhưng ảnh hưởng đến thẩm mỹ, tâm lý và những hệ lụy của nó. Nam gặp nhiều hơn nữ, người lớn nhiều hơn trẻ em. Bệnh phát thành từng đợt, có khi tăng giảm theo mùa.
     </string>
     <string name="vaynenSym" translatable="false">
         \t\tCác dấu hiệu và triệu chứng bệnh vảy nến
@@ -123,8 +123,6 @@ Bệnh nấm da hay hắc lào, bệnh lác đồng tiền, là bệnh do vi n�
 
 \t\t\nHắc lào có thể gặp ở bất cứ vị trí nào nhưng hay gặp nhất là ở chân, thân mình, nơi có nếp gấp kẽ lớn.
 
-
-
     </string>
     <string name="haclaoReason" translatable="false">\t\tHắc lào do những loại vi nấm thuộc nhóm dermatophytes gây ra như: epidermophyton, microsporum, trichophyton, malassezia furfur. Các loại nấm này có kích thước rất nhỏ, chỉ có thể quan sát được bằng kính hiển vi. Môi trường ướt, nóng ẩm là điều kiện thuận lợi để chúng phát triển. Theo thống kê thì những người da dầu, khi cơ thể có sự biến đổi về lượng hormone có thể khiến hệ miễn dịch suy yếu sẽ dễ bị hắc lào hơn thông thường.
     \n\t\tSau đây là một số nguyên nhân gây ra hắc lào thường gặp trong đời sống:
@@ -132,6 +130,22 @@ Bệnh nấm da hay hắc lào, bệnh lác đồng tiền, là bệnh do vi n�
 Bị lây nhiễm bởi người bị hắc lào: khi sử dụng chung đồ như tư trang cá nhân, quần áo, khăn tắm hoặc tiếp xúc da trực tiếp với người bị hắc lào sẽ có nguy cơ lây nhiễm rất cao.
 \n\t\tVi nấm xâm nhập từ vật nuôi: nếu như vật nuôi trong nhà như chó mèo không được sạch sẽ thì đây rất có thể là nơi ẩn trú của các loại vi nấm. Khi chúng ta tiếp xúc với vật nuôi thì rất có khả năng bị vi nấm xâm nhập gây ra hắc lào.
     </string>
+
+
+
+
+
+
+    <string name="munTitle" translatable="false">Mụn
+</string>
+    <string name="munReason" translatable="false">●  Căng thẳng gây kích thích nội tiết tố androgen, làm nhiễu loạn các tuyến dầu và từ đó gây mụn trên cằm. Đó là lí do những người căng thẳng thường bị nổi mụn chi chít trên mặt.
+\n●  Mất cân bằng nội tiết tố cũng có thể liên quan đến chế độ ăn uống hằng ngày của bạn. Đồng thời, một số nhà nghiên cứu tin rằng sức khỏe đường ruột ảnh hưởng đến mụn trứng cá.
+\n●  Những vùng khí hậu oi bức càng thúc đẩy việc sản xuất dầu, khiến vi khuẩn P. acnes được dịp sinh sôi. Da dễ bị mất nước. Các tế bào bị khô lại và bám trên da, khiến mụn đầu trắng nhỏ hình thành.
+</string>
+    <string name="munDes" translatable="false">\t\t    Khi bụi bẩn, dầu thừa, và các tế bào chết lấp vào các lỗ chân lông, các vi khuẩn sống trong tuyến dầu có môi trường thuận lợi để sinh sôi là nguyên nhân gây mụn nhọt hoặc mụn trứng cá. Đây là vấn đề của mọi lứa tuổi, đặc biệt là những người trong độ tuổi từ 15-35 tuổi. Mụn cũng khiến ta mất tự tin hơn khi chúng thường xuất hiện trên mặt.
+</string>
+
+
 
     <string-array name="tfe_ic_models" translatable="false">
         <item>Quantized_EfficientNet</item>

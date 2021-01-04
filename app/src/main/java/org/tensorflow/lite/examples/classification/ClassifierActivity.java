@@ -81,7 +81,14 @@ public class ClassifierActivity extends CameraActivity implements OnImageAvailab
     LOGGER.i("Initializing at size %dx%d", previewWidth, previewHeight);
     rgbFrameBitmap = Bitmap.createBitmap(previewWidth, previewHeight, Config.ARGB_8888);
   }
+  public Bitmap getResizedBitmap(Bitmap image, int maxSize) {
+    int width = image.getWidth();
+    int height = image.getHeight();
 
+    float bitmapRatio = (float)width / (float) height;
+
+    return Bitmap.createScaledBitmap(image, 150, 150, true);
+  }
   @Override
   protected void processImage() {
     rgbFrameBitmap.setPixels(getRgbBytes(), 0, previewWidth, 0, 0, previewWidth, previewHeight);
@@ -93,6 +100,8 @@ public class ClassifierActivity extends CameraActivity implements OnImageAvailab
           public void run() {
             if (classifier != null) {
               final long startTime = SystemClock.uptimeMillis();
+//              rgbFrameBitmap = getResizedBitmap(rgbFrameBitmap, 150);
+
               final List<Classifier.Recognition> results =
                   classifier.recognizeImage(rgbFrameBitmap, sensorOrientation);
               lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;

@@ -25,5 +25,7 @@ public class MainActivity extends AppCompatActivity {
     public void forwardImgActivity(View view) {
         Intent intent = new Intent(this, ClassifierActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+
     }
 }

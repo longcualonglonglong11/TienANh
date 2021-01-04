@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="10"
+    android:background="@drawable/back3"
+    android:scaleType="centerCrop"
+
     tools:context=".MainActivity">
 <!--    <Button-->
 <!--        android:onClick="forwardTextActivity"-->
@@ -16,6 +19,11 @@
 
 <!--    </Button>-->
     <TextView
+        android:shadowColor="#000"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:shadowRadius="1.6"
+
         android:layout_weight="2"
         android:text="SKIN LEARNING"
         android:textSize="50dp"
@@ -29,34 +37,41 @@
 
     </TextView>
     <TextView
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="1.6"
         android:layout_weight="7"
-
+        android:textFontWeight="1000"
         android:fontFamily="monospace"
-        android:textColor="#000000"
+        android:textColor="#ffff"
         android:textSize="20dp"
         android:gravity="center"
-        android:text="\tSkin learning là một ứng dụng giúp người dùng học thêm về các chứng bệnh ngoài da một cách hiểu quả chỉ thông qua việc chụp ảnh !!!"
+        android:text="\tSkin learning là một ứng dụng giúp người dùng học thêm về các chứng bệnh ngoài da một cách hiệu quả chỉ thông qua việc chụp ảnh !!!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
     </TextView>
     <androidx.cardview.widget.CardView
         android:layout_weight="1"
-        app:cardBackgroundColor="#D400BF"
         android:layout_gravity="center"
-        app:cardCornerRadius="15dp"
-        android:layout_marginBottom="35dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        app:cardCornerRadius="40dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="260dp"
+        android:layout_height="40dp">
         <Button
-            android:padding="30dp"
-            android:textSize="30dp"
+            android:shadowColor="#000"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="1.6"
+            android:textSize="25dp"
+
             android:textColor="#ffff"
-            android:background="@android:color/transparent"
+            android:background="@drawable/background_btn"
             android:onClick="forwardImgActivity"
             android:id="@+id/takeQuizBtn"
             android:text="Bắt đầu nào !"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent">
 
         </Button>

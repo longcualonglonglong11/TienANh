@@ -17,8 +17,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -35,18 +34,13 @@
             tools:context="org.tensorflow.lite.examples.classification.CameraActivity" />
 
 
-
-
     </RelativeLayout>
-
-
 
 
     <LinearLayout
         android:id="@+id/doc"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#000000"
         android:orientation="vertical"
         android:visibility="visible">
 
@@ -55,160 +49,214 @@
             android:layout_height="wrap_content">
 
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <androidx.cardview.widget.CardView
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:minHeight="1000dp"
-                    app:cardCornerRadius="30dp">
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="25dp">
+
                     <androidx.cardview.widget.CardView
-                        android:layout_gravity="right"
                         android:layout_width="wrap_content"
-                        app:cardPreventCornerOverlap="false"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        app:cardBackgroundColor="@android:color/transparent"
                         app:cardElevation="0dp"
-                        android:layout_height="wrap_content">
+                        app:cardPreventCornerOverlap="false">
+
                         <Button
-                            android:textColor="#FF0202"
-                            android:textSize="30dp"
-                            android:text="X"
-                            android:background="@android:color/transparent"
+                            android:shadowColor="#D40000"
+                            android:shadowDx="6"
+                            android:shadowDy="6"
+                            android:shadowRadius="1.6"
+                            android:paddingLeft="35dp"
                             android:id="@+id/close_doc"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:onClick="closeDoc"></Button>
+                            android:background="@android:color/transparent"
+                            android:onClick="closeDoc"
+                            android:text="X"
+                            android:textFontWeight="1000"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="#fff"
+                            android:textSize="22dp"
+                            ></Button>
 
                     </androidx.cardview.widget.CardView>
+
                     <LinearLayout
+
                         android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
                         <TextView
+                            android:shadowColor="#D400BF"
+                            android:shadowDx="10"
+                            android:shadowDy="10"
+                            android:shadowRadius="1.6"
                             android:id="@+id/titleText"
 
-                            android:fontFamily="sans-serif-light"
-                            android:textStyle="italic"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-light"
                             android:text="Tên bệnh"
-                            android:textSize="50dp"
                             android:textAlignment="center"
+                            android:textColor="#fff"
                             android:textFontWeight="1000"
-                            android:textColor="#2196F3"
-                            >
-                        </TextView>
-                        <ImageView
-                            android:id="@+id/imgText"
-                            android:layout_gravity="center"
-                            android:layout_width="150dp"
-                            android:layout_height="150dp">
+                            android:textSize="50dp"
+                            android:textStyle="bold"></TextView>
 
-                        </ImageView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            app:cardCornerRadius="70dp">
+
+                            <ImageView
+
+                                android:id="@+id/imgText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="centerCrop">
+
+                            </ImageView>
+                        </androidx.cardview.widget.CardView>
+
 
                         <TextView
-                            android:fontFamily="sans-serif-light"
-                            android:textStyle="italic"
+                            android:shadowColor="#969598"
+                            android:shadowDx="6"
+                            android:shadowDy="6"
+                            android:shadowRadius="1.6"
+                            android:id="@+id/desStatic"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-light"
                             android:text="Miêu tả"
-                            android:textSize="30dp"
-                            android:textAlignment="center"
+                            android:textColor="#fff"
                             android:textFontWeight="1000"
-                            android:textColor="#000000"
-                            >
-                        </TextView>
+                            android:textSize="30dp"
+                            android:textStyle="italic"></TextView>
+
                         <TextView
                             android:id="@+id/descriptionText"
-                            android:fontFamily="sans-serif-light"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="sans-serif-light"
                             android:text="mt"
-                            android:textSize="15dp"
+                            android:textColor="#fff"
                             android:textFontWeight="400"
-                            android:textColor="#000000">
-                        </TextView>
+                            android:textSize="15dp"></TextView>
+
                         <TextView
-                            android:fontFamily="sans-serif-light"
-                            android:textStyle="italic"
+                            android:shadowColor="#969598"
+                            android:shadowDx="6"
+                            android:shadowDy="6"
+                            android:shadowRadius="1.6"
+                            android:id="@+id/reaStatic"
+
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-light"
                             android:text="Nguyên nhân"
-                            android:textSize="30dp"
-                            android:textAlignment="center"
+                            android:textColor="#fff"
                             android:textFontWeight="1000"
-                            android:textColor="#000000">
-                        </TextView>
+                            android:textSize="30dp"
+                            android:textStyle="italic"></TextView>
+
                         <TextView
                             android:id="@+id/reasonText"
-                            android:fontFamily="sans-serif-light"
+
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="sans-serif-light"
                             android:text="mt"
-                            android:textSize="15dp"
+                            android:textColor="#fff"
                             android:textFontWeight="400"
-                            android:textColor="#000000">
-                        </TextView>
+                            android:textSize="15dp"></TextView>
+
                         <TextView
-                            android:fontFamily="sans-serif-light"
-                            android:textStyle="italic"
+                            android:id="@+id/symStatic"
+                            android:shadowColor="#969598"
+                            android:shadowDx="6"
+                            android:shadowDy="6"
+                            android:shadowRadius="1.6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-light"
                             android:text="Triệu chứng"
-                            android:textSize="30dp"
-                            android:textAlignment="center"
+                            android:textColor="#fff"
                             android:textFontWeight="1000"
-                            android:textColor="#000000">
-                        </TextView>
+                            android:textSize="30dp"
+                            android:textStyle="italic"></TextView>
+
                         <TextView
-                            android:layout_marginBottom="20dp"
+
                             android:id="@+id/symptomText"
-                            android:fontFamily="sans-serif-light"
                             android:layout_width="match_parent"
+
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="sans-serif-light"
                             android:text="mt"
-                            android:textSize="15dp"
+                            android:textColor="#fff"
                             android:textFontWeight="400"
-                            android:textColor="#000000">
-                        </TextView>
-<!--                        <TextView-->
-<!--                            android:fontFamily="sans-serif-light"-->
-<!--                            android:textStyle="italic"-->
-<!--                            android:layout_width="match_parent"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginTop="10dp"-->
-<!--                            android:text="Mức độ nguy hiểm"-->
-<!--                            android:textSize="30dp"-->
-<!--                            android:textAlignment="center"-->
-<!--                            android:textFontWeight="1000"-->
-<!--                            android:textColor="#000000">-->
-<!--                        </TextView>-->
-<!--                        <TextView-->
-<!--                            android:id="@+id/dangeLvText"-->
-<!--                            android:fontFamily="sans-serif-light"-->
-<!--                            android:layout_width="match_parent"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginTop="10dp"-->
-<!--                            android:text="mt"-->
-<!--                            android:textSize="15dp"-->
-<!--                            android:textFontWeight="400"-->
-<!--                            android:textColor="#000000">-->
-<!--                        </TextView>-->
+                            android:textSize="15dp"></TextView>
+                        <!--                        <TextView-->
+                        <!--                            android:fontFamily="sans-serif-light"-->
+                        <!--                            android:textStyle="italic"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:layout_marginTop="10dp"-->
+                        <!--                            android:text="Mức độ nguy hiểm"-->
+                        <!--                            android:textSize="30dp"-->
+                        <!--                            android:textAlignment="center"-->
+                        <!--                            android:textFontWeight="1000"-->
+                        <!--                            android:textColor="#000000">-->
+                        <!--                        </TextView>-->
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/dangeLvText"-->
+                        <!--                            android:fontFamily="sans-serif-light"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:layout_marginTop="10dp"-->
+                        <!--                            android:text="mt"-->
+                        <!--                            android:textSize="15dp"-->
+                        <!--                            android:textFontWeight="400"-->
+                        <!--                            android:textColor="#000000">-->
+                        <!--                        </TextView>-->
 
                     </LinearLayout>
 
 
                 </androidx.cardview.widget.CardView>
-
 
 
             </LinearLayout>
@@ -217,21 +265,29 @@
         </ScrollView>
 
     </LinearLayout>
+
     <TextView
+        android:shadowColor="#969598"
+        android:shadowDx="6"
+        android:shadowDy="4"
+        android:shadowRadius="1.6"
+
         android:id="@+id/textInto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         android:layout_gravity="bottom"
         android:layout_marginBottom="10dp"
-        android:textAlignment="center"
         android:fontFamily="sans-serif"
-        android:textColor="#291F1F"
+
         android:text="Giữ màn hình để chụp"
+        android:gravity="center"
+        android:textColor="#D400BF"
         android:textFontWeight="1000"
-        android:textStyle="bold"
         android:textSize="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:textStyle="bold">
 
     </TextView>
+
     <include
 
         android:id="@+id/bottom_sheet_layout"
